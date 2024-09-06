@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!--hi msg-->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-sm-8 text-center text-sm-start">
+                <h2>Welcome Back Hamada! Here are your latest updates.</h2>
+            </div>
+            <div class="col-12 col-sm-4 text-center text-sm-end mt-3 mt-sm-0">
+                <button type="button" class="btn btn-primary btn-lg custom-btn">New Request</button>
+            </div>
+        </div>
+    </div>
+   
+    <!--cards-->
+    <div class="container my-4">
+        <!-- Profile Card Row -->
+        <div class="row align-items-center mb-4">
+          <div class="col-md-8">
+            <div class=" p-con">
+              <div class="row align-items-center">
+                <!-- Profile Image -->
+                <div class="col-auto">
+                    <img src="material/Elon_Musk.jpg" alt="Profile Picture" class="rounded-circle profile-img" style="width: 64px; height: 64px;">
+                </div>
+                <!-- Profile Information -->
+                <div class="col">
+                  <h6 class="mb-0 fw-bold">Ahmad Azmi</h6>
+                  <small class="text-muted">Junior Accounting Officer</small>
+                  
+                </div>
+                <!-- View Profile Button -->
+                <div class="col-auto">
+                  <a href="profiles.html" class="btn btn-outline-success profile-btn1">View Profile</a>
+                </div>
+              </div>
+              <!--icons row-->
+              <div class="row mt-2">
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img src="material/reportingto.png" alt="Reporting To Icon" class="icon-size me-2">
+                    <span class="ms-2"><strong>Reporting To:</strong> <br> Salwa Assem</span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center">
+                    <img src="material/corporatelvl.png" alt="Corporate Level Icon" class="icon-size me-2">
+                    <span class="ms-2"><strong>Corporate Level:</strong><br>Level 10</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      
+          <!-- Requests Section -->
+          <div class="col-md-2">
+            <div class="card text-center bg-success text-white shadow-sm rounded py-3">
+              <i class="fas fa-file-alt fa-2x"></i>
+              <h2 class="my-2">10</h2>
+              <p class="mb-0">Vacation Requests</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card text-center bg-success text-white shadow-sm rounded py-3">
+              <i class="fas fa-file-alt fa-2x"></i>
+              <h2 class="my-2">10</h2>
+              <p class="mb-0">Leave Requests</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--slider-->
+    <div class="container">
+        <div class="row">
+            <h5><strong>Latest News:</strong></h5>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="material/slider.jpg" class="d-block w-100 c-img" alt="slider">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="material/slider1.jpg" class="d-block w-100 c-img" alt="slider1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="material/slider2.jpg" class="d-block w-100 c-img" alt="slider2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+          </div></div>        
+    </div>
+    
+    <!--vacation requests-->
+    <div class="container p-con">
+        <div class="row r-row align-items-center justify-content-between">
+            <div class="col-auto d-flex align-items-center">
+                <img src="material/request1.png" alt="Request Icon" class="request-icon2">
+                <h5 class="ml-2">Vacation Requests</h5>
+            </div>
+            <div class="col-auto">
+                <div class="search-wrapper">
+                    <input type="search" id="search" placeholder="Search..." class="form-control search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+            
+             <!-- Clears row for next section -->
+            <hr>
+            <!-- Vacation Cards Row -->
+            <div class="col-12">
+                <div class="row" style="margin-bottom:0 ;">
+                    <!-- First Card -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card vacation-card">
+                            <img src="material/Elon_Musk.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Profile">
+                            <div class="card-body1 text-center">
+                                <h5 class="card-title">Moath Khalil</h5>
+                                <p class="card-text">Submitted on:<strong> 1/3/2024</strong></p>
+                                <p class="card-text">Duration: <strong>2 Weeks (1/4/2023 - 14/4/2023)</strong></p>
+                                <p class="card-text">Salary:<strong> 1000 AED</strong></p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-outline-success">Decline</button>
+                                    <button class="btn btn-success">Approve</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Card-->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card vacation-card">
+                            <img src="material/Elon_Musk.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Profile">
+                            <div class="card-body1 text-center">
+                                <h5 class="card-title">Moath Khalil</h5>
+                                <p class="card-text">Submitted on:<strong> 1/3/2024</strong></p>
+                                <p class="card-text">Duration: <strong>2 Weeks (1/4/2023 - 14/4/2023)</strong></p>
+                                <p class="card-text">Salary:<strong> 1000 AED</strong></p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-outline-success">Decline</button>
+                                    <button class="btn btn-success">Approve</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Third Card -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card vacation-card">
+                            <img src="material/Elon_Musk.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Profile">
+                            <div class="card-body1 text-center">
+                                <h5 class="card-title">Moath Khalil</h5>
+                                <p class="card-text">Submitted on:<strong> 1/3/2024</strong></p>
+                                <p class="card-text">Duration: <strong>2 Weeks (1/4/2023 - 14/4/2023)</strong></p>
+                                <p class="card-text">Salary:<strong> 1000 AED</strong></p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-outline-success">Decline</button>
+                                    <button class="btn btn-success">Approve</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fourth Card-->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card vacation-card">
+                            <img src="material/Elon_Musk.jpg" class="card-img-top rounded-circle mx-auto d-block mt-3" alt="Profile">
+                            <div class="card-body1 text-center">
+                                <h5 class="card-title">Moath Khalil</h5>
+                                <p class="card-text">Submitted on:<strong> 1/3/2024</strong></p>
+                                <p class="card-text">Duration: <strong>2 Weeks (1/4/2023 - 14/4/2023)</strong></p>
+                                <p class="card-text">Salary:<strong> 1000 AED</strong></p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-outline-success">Decline</button>
+                                    <button class="btn btn-success">Approve</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more-container">
+                        <a href="vacationrequests.html" class="view-more-btn">View More ></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    
+
+  </body>
+</html>

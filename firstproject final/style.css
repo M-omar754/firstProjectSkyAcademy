@@ -1,0 +1,444 @@
+body {
+    font-family: Arial, sans-serif;
+   
+}
+h2 {
+    font-weight: bold;
+}
+.container{
+    margin-top: 50px;
+  }
+
+
+.navbar-custom {
+    background-color: #247f3e; 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white; 
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ffffff; 
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+/* Custom button styles */
+.custom-btn {
+    font-size: 1rem;
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    width: 200px;
+    background-color: #247f3e;
+    border-color: #247f3e;
+    border-width: 2px;
+}
+
+.custom-btn:hover {
+    background-color: #ffffff;
+    border-color: #247f3e;
+    border-width: 2px;
+    box-shadow: none;
+    color: #247f3e;
+}
+
+
+/* Drop down nav bar custom */
+.navbar-toggler-icon {
+    background-image: none; 
+    color: white; 
+    border: none; 
+}
+.navbar-toggler-icon::before {
+    content: "\2630"; 
+    color: white; 
+    font-size: 1.5rem; 
+}
+.navbar-toggler {
+    border-color: white;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: white; 
+}
+
+/* Profile Button - Specific styles */
+.profile-btn {
+    width: 180px; 
+    background-color: transparent;
+    color: #247f3e;
+    border: 2px solid #247f3e;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-weight: bold;
+}
+
+.profile-btn:hover {
+    background-color: #247f3e;
+    color: #ffffff;
+    border: 2px solid #247f3e;
+}
+.profile-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+/*profile card*/
+.custom-card {
+    background-color: #f6f6f6; 
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px ;
+}
+.icon-size {
+    width: 64px; 
+    height: 64px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .mb-md-0 {
+        margin-bottom: 0; /* Removes bottom margin on medium and larger screens */
+    }
+    
+}
+.card-body {
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    
+}
+
+.request-icon {
+    width: 48px;
+    height: px;
+    object-fit: cover;
+}
+.request-icon2 {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.request-number {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.request-text {
+    font-size: 1em;
+    margin: 0;
+}
+/*slider*/
+ .c-item{
+    height: 240px;
+}
+ .c-img{
+    height: 100%;
+    object-fit: cover ;
+ }
+
+ .carousel-indicators button {
+    background-color: #fff !important; 
+    border-radius: 50% !important; 
+    width: 12px !important; 
+    height: 12px !important; 
+    border: 2px solid #247f3e !important; 
+  }
+  
+  .carousel-indicators .active {
+    background-color: #247f3e !important;
+  }
+  .r-row1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+  }
+  .r-row1 {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+h5 {
+    color: #333;
+    font-weight: bold;
+}
+
+.search-input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+/* Search bar */
+.search-wrapper {
+    position: relative;
+    width: 260px; 
+
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 35px 8px 15px; 
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #247f3e;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.search-input:focus {
+    border-color: #247f3e; 
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+}
+/*Vacation cards*/
+.vacation-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.vacation-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.vacation-card h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+.vacation-card .card-text {
+    color: #666;
+}
+
+.vacation-card .btn {
+    width: 48%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.view-more-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+
+.view-more-btn {
+    color: #247f3e; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    margin: 10px;
+}
+
+
+.view-more-btn:hover {
+    color: #1a5d2c; 
+    text-decoration: none;
+}
+
+/*nav bar svg's*/
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons svg {
+    fill: #ffffff; 
+    margin-left: 20px; 
+}
+
+.navbar-icons svg:first-of-type {
+    margin-left: 0; 
+}
+ /*profile page*/
+
+.col-sm {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* Style for the icon images */
+.col-sm img {
+    max-width: 72px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Style for text below the icon */
+.col-sm p {
+    margin: 10px 0 0; 
+    font-size: 14px; 
+}
+
+.col-sm p strong {
+    display: block; 
+    font-size: 16px; 
+}
+
+.col-sm p br {
+    content: ""; 
+    display: block;
+    margin: 4px 0; 
+}
+/*Profile page*/
+.p-con{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    padding: 24px;
+}
+
+/* Custom card styles */
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-title {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    color: #000; 
+    margin-bottom: 0.5rem; 
+}
+
+.card-subtitle {
+    font-size: 1rem; 
+    color: #666; 
+    margin-bottom: 1rem; 
+}
+
+.card-text {
+    font-size: 1rem; 
+    color: #666; 
+}
+
+.card hr {
+    border: 0;
+}
+
+.mb-4 {
+    margin-bottom: 0.5rem; /* Space below each card */
+}
+.p-row{
+    margin-bottom: 0;
+}
+.p-3 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.p-3 h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+/*veacation page*/
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .card-body {
+        flex-direction: row;
+    }
+}
+
+/* Ensure cards are 1 per row on mobile */
+@media (max-width: 576px) {
+    .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Styling for the image */
+.request-image {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .page-item .page-link {
+    border-radius: 50%;
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem; 
+    padding: 0;
+    margin: 0.2rem;
+    border: 3px solid #247f3e; 
+    color: #247f3e; 
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold; 
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #1e6b2a; 
+    color: #ffffff;
+}
+
+
+.card {
+    border-radius: 12px;
+}
+.btn-outline-success {
+    border-color: #247f3e;
+    color: #247f3e;
+}
+.btn-outline-success:hover {
+    background-color: #247f3e;
+    color: #fff;
+}
+
+
